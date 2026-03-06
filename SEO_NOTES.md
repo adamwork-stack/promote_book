@@ -34,7 +34,7 @@ Add schema.org `Book` markup to the `<head>`:
     "name": "Doug James Hood"
   },
   "description": "Holding On to God and Helping Each Other When Life Hits Hard...",
-  "image": "https://yoursite.com/cover.png"
+  "image": "https://yoursite.com/front.png"
 }
 </script>
 ```
@@ -49,7 +49,7 @@ Add a `robots.txt` file to control crawling.
 Add `<link rel="canonical" href="https://yoursite.com/">` when you have a live domain.
 
 ### 5. **Page Speed**
-- Optimize `cover.png` (compress, use WebP where possible)
+- Optimize `front.png` (compress, use WebP where possible)
 - Consider lazy-loading images below the fold
 - Minify CSS and JS for production
 
