@@ -343,6 +343,13 @@ a:hover {
   background: var(--peach-soft);
 }
 
+.about-book-bg {
+  background-image: url('front_background.png');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
 .about-content {
   display: grid;
   gap: 2rem;
@@ -376,10 +383,22 @@ a:hover {
   color: var(--grey);
 }
 
+.about-cover img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
 /* Author Section */
 .author-section {
   background: var(--grey-dark);
   color: var(--white);
+}
+
+.author-section-bg {
+  background-image: url('back_background.png');
+  background-size: cover;
+  background-position: center;
+  background-color: var(--grey-dark);
 }
 
 .author-section h2 {
